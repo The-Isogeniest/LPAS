@@ -124,7 +124,7 @@ differ.
 | `signature.py` | The underlying signature scheme `Pi` = (KeyGen, Sign, Verify), Figure 2 (Fiat–Shamir with aborts), plus `Rej`, Figure 4. |
 | `pke.py` | The MLWE-based PKE of Figure 9 (Appendix C), a simplified Kyber-like scheme. |
 | `ske.py` | AES-256-GCM, the paper's stated SKE instantiation. |
-| `nizk.py` | **Stub**, not a real proof system — see below. |
+| `nizk.py` | **Stub**, not a real proof system |
 | `lpas.py` | Figure 3 itself: `Setup, ReqGen, ReqVerify, AdGen, AdVerify, ProxySign, ProxyPreVerify, Adapt, ProxyExt, ReqExt`, and the hard relation `R_A`. |
 | `demo.py` | End-to-end run: Buyer/Seller/Proxy simulation with printed steps and assertions. |
 
