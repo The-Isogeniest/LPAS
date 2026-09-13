@@ -107,13 +107,7 @@ the `LPAS_PROFILE` env var):
 | compression `ν_b`, `ν_w` | 0, 0 (disabled) | 9, 15 (real) |
 | runtime (full exchange) | ~10 ms | ~100 ms |
 
-The `paper` profile is the concrete instantiation from the paper's Table 2 /
-Appendix E ("Parameter Selection"), including **real modulus-rounding
-compression** — `h` is a genuine small nonzero hint there, not the trivial
-all-zero vector the `toy` profile always produces (see "Faithful (added
-since the initial version)" below). Both profiles run the identical
-protocol code in `lpas.py`/`signature.py` — only `params.py`'s numbers
-differ.
+
 
 ## Files
 
